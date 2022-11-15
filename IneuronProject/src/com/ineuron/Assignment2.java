@@ -5,9 +5,10 @@ import java.util.Set;
 
 class AlgorithmTrial{
 	
-	   //Question 1
-	  //Method 1
 	public static void findDups() {
+		
+		 //Question 1
+		  //Method 1
 		
 		int [] arr = {10, 13, 20, 24, 10, 12, 13, 20};
 		
@@ -109,6 +110,11 @@ class AlgorithmTrial{
 		while(j < B.length) {
 			nums[index++] = B[j++];
 		}
+	}
+	    //Question 3
+	public static void quickSort() {
+		int [] num = {2, 7, 1, 6, 3, 4, 0, -15};
+		
 	}
 }
 
